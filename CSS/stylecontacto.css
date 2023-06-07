@@ -1,0 +1,123 @@
+body {
+    text-align: center;/* Alineación del texto al centro */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	letter-spacing: 0;
+	font-weight: normal;
+	position: relative;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	line-height: normal;
+	color: #111111;
+    font-family: fantasy;
+	margin: 0
+}
+h1 {
+
+    margin-bottom: 20px;
+}
+h2{ 
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color:rgba(70, 80, 167, 0.761) ;
+}
+
+h3{
+    margin-bottom: 5px;
+}
+
+.navbar-brand{
+    font-size: 5ex;/* Tamaño de la fuente */
+    line-height: 6px;/* Altura de línea */
+    color: rgba(70, 80, 167, 0.761); /* Color del texto con transparencia */
+    font-family:fantasy; /* Familia de fuente */
+}
+ .nav-link {
+    font-size: 15px;
+    font-family: fantasy;
+    margin-left: 40px;
+    color: rgba(90, 101, 205, 0.569);
+
+}
+.contact-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  
+  .contact-box h2 {
+    text-align: center;
+  }
+  
+  .contact-box form {
+    margin-top: 20px;
+  }
+  
+  .contact-box label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-box input[type="text"],
+  .contact-box input[type="email"],
+  .contact-box input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-box input[type="submit"] {
+    background-color: #d6c71f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .contact-box input[type="submit"]:hover {
+    background-color: #819200;
+  }
+
+  /* inicio videos */
+
+
+.videos-caja{
+    text-align: center;
+    margin-top: 50px;
+}
+.videos {
+    width:560px;
+    height:315px
+}
+
+/* fin texto */
+
+/* footer */
+footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .redes-sociales a {
+    color: #e7e7e7;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .derechos-reservados {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
