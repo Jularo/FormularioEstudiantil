@@ -18,7 +18,7 @@ h6 {
 	font-weight: normal;
 	line-height: normal;
 	color: #111111;
-    font-family: fantasy;
+    font-family: arial;
 	margin: 0
 }
 h1 {
@@ -40,11 +40,11 @@ h3{
     font-size: 5ex;/* Tamaño de la fuente */
     line-height: 6px;/* Altura de línea */
     color: rgba(70, 80, 167, 0.761); /* Color del texto con transparencia */
-    font-family:fantasy; /* Familia de fuente */
+    font-family:arial; /* Familia de fuente */
 }
  .nav-link {
     font-size: 15px;
-    font-family: fantasy;
+    font-family: arial;
     margin-left: 40px;
     color: rgba(90, 101, 205, 0.569);
 
