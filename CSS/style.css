@@ -1,8 +1,14 @@
+
 body {
-    text-align: center;/* Alineación del texto al centro */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  text-align: center;
+  /* Alineación del texto al centro */
+  background-image: url(../imagenes_diplomado/fondo7.avif);
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
 }
 
 h1,
@@ -11,171 +17,206 @@ h3,
 h4,
 h5,
 h6 {
-	letter-spacing: 0;
-	font-weight: normal;
-	position: relative;
-	padding: 0 0 10px 0;
-	font-weight: normal;
-	line-height: normal;
-	color: #111111;
-    font-family: arial;
-	margin: 0
+  letter-spacing: 0;
+  font-weight: normal;
+  position: relative;
+  padding: 0 0 10px 0;
+  font-weight: normal;
+  line-height: normal;
+  color: #000003;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0
 }
+
 h1 {
 
-    margin-bottom: 20px;
-}
-h2{ 
-    margin-top: 30px;
-    margin-bottom: 20px;
-    color:rgba(70, 80, 167, 0.761) ;
+  margin-bottom: 20px;
 }
 
-h3{
-    margin-bottom: 5px;
+h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: rgba(70, 80, 167, 0.761);
+}
+
+h3 {
+  margin-bottom: 5px;
 }
 
 
-.navbar-brand{
-    font-size: 5ex;/* Tamaño de la fuente */
-    line-height: 6px;/* Altura de línea */
-    color: rgba(70, 80, 167, 0.761); /* Color del texto con transparencia */
-    font-family:arial; /* Familia de fuente */
+.navbar-brand {
+  font-size: 5ex;
+  /* Tamaño de la fuente */
+  line-height: 6px;
+  /* Altura de línea */
+  color: rgba(131, 70, 167, 0.761);
+  /* Color del texto con transparencia */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* Familia de fuente */
 }
- .nav-link {
-    font-size: 15px;
-    font-family: arial;
-    margin-left: 40px;
-    color: rgba(90, 101, 205, 0.569);
+
+.nav-link {
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 40px;
+  color: rgba(82, 11, 110, 0.569);
 
 }
 
 .titulo-rectangulo {
-    background-color: #071a929a; /* color de fondo del rectángulo */
-    padding: 10px; /* espacio interno alrededor del título */
-    display: inline-block; /* ajuste el tamaño al contenido del título */
-}   
-  
+  background-color: #b639699a;
+  /* color de fondo del rectángulo */
+  padding: 10px;
+  /* espacio interno alrededor del título */
+  display: inline-block;
+  /* ajuste el tamaño al contenido del título */
+}
+
 .titulo-rectangulo h1 {
-    font-size: 35px;
-    margin: 0; /* eliminar el espacio en blanco alrededor del título */
-    color: #ffffffeb;
+  font-size: 35px;
+  margin: 0;
+  /* eliminar el espacio en blanco alrededor del título */
+  color: #ffffffeb;
 }
 
 
 /* Estilos del contenedor del carrusel */
 
 .carrusel {
-    padding: 16px;
-    margin: 0;
-    
+  padding: 16px;
+  margin: 0;
+
 
 }
-  
-  /* Estilos de las imágenes del carrusel */
-  .carousel-img img {
-    width: 50%; /* Ancho del carrusel al 100% del contenedor */
-    object-fit: cover;
-    width: 50ex;
-    height: 50ex;
-    margin-right: 10px;
-    display: block; /* Convertir la imagen en un bloque */
-    cursor: pointer;
-    
-  }
 
-  .carousel-img {
-    display: flex; /* Establece el contenedor como un contenedor flexible */
-    overflow-y: auto; /* Habilita el desplazamiento vertical automático si el contenido desborda el contenedor */
-    margin-top: 40px; /* Margen superior de 40 píxeles */
-    margin-left: 40px; /* Margen izquierdo de 40 píxeles */
-    text-align: center;
-    
-  }
+/* Estilos de las imágenes del carrusel */
+.carousel-img img {
+  width: 50%;
+  /* Ancho del carrusel al 100% del contenedor */
+  object-fit: cover;
+  width: 50ex;
+  height: 50ex;
+  margin-right: 10px;
+  display: block;
+  /* Convertir la imagen en un bloque */
+  cursor: pointer;
 
-  /* fin carrusel */
+}
+
+.carousel-img {
+  display: flex;
+  /* Establece el contenedor como un contenedor flexible */
+  overflow-y: auto;
+  /* Habilita el desplazamiento vertical automático si el contenido desborda el contenedor */
+  margin-top: 40px;
+  /* Margen superior de 40 píxeles */
+  margin-left: 40px;
+  /* Margen izquierdo de 40 píxeles */
+  text-align: center;
+
+}
+
+/* fin carrusel */
 
 
 /* inicio texto */
 
 .contenido-quien {
 
-    background-image:url(../Imagen/maxresdefault.jpg);
-    background-size: cover;
-    background-position: center;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 50px;
+  background-image: url(../imagenes_diplomado/fondo7.avif);
+  background-size: cover;
+  background-position: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 50px;
 }
 
 /* inicio cajas */
 
 .caja-principal {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
-.caja {
-    width: 300px;
-    padding: 20px;
-    border: 3px solid #4f39f9;
-    margin-right: 20px;
-    display: inline-block;
-    text-align: center;
-    background-color: rgba(117, 79, 138, 0.738)
-  }
-  
-  .caja:last-child {
-    margin-right: 0;
-  }
-  
-  .caja h2 {
 
-    font-size: 24px;
-    font-weight: bold;
-    color: #000000;
-  }
-  
-  .caja p {
-    font-size: 16px;
-    text-align: center;
-  }
-  
-  .caja img {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-  }
+.card {
+  display: inline-block;
+
+}
+
+.caja {
+  width: 300px;
+  padding: 20px;
+  border: 3px solid #4f39f9;
+  margin-right: 20px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(117, 79, 138, 0.738)
+}
+
+.caja:last-child {
+  margin-right: 0;
+}
+
+.caja h2 {
+
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.caja p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.caja img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
 
 /* fin cajas */
 /* inicio videos */
 
 
-.videos-caja{
-    text-align: center;
-    margin-top: 50px;
+.videos-caja {
+  text-align: center;
+  margin-top: 50px;
 }
+
 .videos {
-    width:560px;
-    height:315px
+  width: 560px;
+  height: 315px
 }
 
 /* fin texto */
 
 /* footer */
 footer {
-    background-color: #000000;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .redes-sociales a {
-    color: #e7e7e7;
-    font-size: 20px;
-    margin-right: 10px;
-  }
-  
-  .derechos-reservados {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #666;
-  }
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+.redes-sociales a {
+  color: #e7e7e7;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.derechos-reservados {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* ANIMACIÓN SERVICIOS*/
+
+.Descripción {
+  display: none; /* Oculta las secciones inicialmente */
+}
+
+.mostrar{
+  display: block;
+}
+
